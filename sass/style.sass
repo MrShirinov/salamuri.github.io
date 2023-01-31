@@ -1,0 +1,534 @@
+$main-color: #671ec7
+$second-color: #ff5656
+
+=btn_hover 
+	&:hover 
+		background-image: none 
+		background-color: $main-color
+
+
+body
+	display: block
+	background: url('../img/bgfone1.jpg') center (center / cover) no-repeat
+
+.menu 
+	position: relative 
+	width: 100% 
+	height: 32px 
+	z-index: 5
+	.btn 
+		position: absolute 
+		display: block 
+		margin: -80px 1200px 
+		align-items: center 
+		text-align: center 
+		background-color: black 
+		color: #ffff  
+		height: 48px 
+		font-size: 16px 
+		text-transform: uppercase
+		+btn_hover
+		
+	.logo 
+		display: flex 
+		flex-direction: row 
+		justify-content: space-between 
+		align-items: center 
+		width: 217px
+		height: 120px
+		padding: 17px 32px 
+		gap: 872px 
+		isolation: isolate
+	.nav 
+		position: absolute 
+		display: flex 
+		justify-content: center 
+		margin-top: -55px 
+		width: 100% 
+		height: 20px 
+		padding: 0px 
+		gap: 24px 
+		list-style-type: none 
+		color: rgb(255, 17, 17) 
+	a 
+	  text-decoration: none
+	  color: black
+	  font-weight: 700
+.header
+	min-height: 715px
+	width: 100%
+	margin-left: -100px
+	margin-right: 0 
+	img
+		margin-left: 0px
+		width: 1495px
+		margin-top: -40px
+
+.wrap
+	min-height: 400px
+	background-color: #ffff
+	.ferst
+		margin-top: 80px
+		font-size: 40px
+		font-weight: 700
+		text-align: center
+	span
+		display: block
+		margin: 0 auto
+		margin-top: -15px
+		width: 370px
+		height: 10px
+		background-color: $main-color
+	.data
+		margin-top: 15px
+		font-size: 25px
+		text-align: center
+		font-weight: 700
+	.price
+		text-align: center
+		font-size: 15px
+		font-weight: 700
+.wrap_btn
+	display: block
+	margin: 0 auto
+	margin-top: 165px
+	font-size: 35px
+	padding: 15px 30px 15px 30px
+	color: #ffff
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+	border: none
+	border-radius: 4px
+	background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+	+btn_hover
+
+.text
+	width: 100%
+	height: 120px
+.option
+	/* background: url('../img/bgtravel.png') center (center / cover) no-repeat */
+	min-height: 650px
+	margin-left: -10px
+	h2
+		display: block
+		margin: 0 auto
+		padding-top: 30px
+		text-align: center
+		margin-top: 70px
+		text-transform: uppercase
+		font-weight: 600
+		color: #000000
+	.hr-inclined-left
+		margin: 40px 0 40px 0
+		padding: 0
+		height: 0
+		border: none
+		border-top: 5px solid #ffffff
+		transform: rotate(2deg)
+	.hr-inclined-right  
+		margin: 25px 0 40px 0
+		padding: 0
+		height: 0
+		border: none
+		border-top: 5px solid #ffffff
+		transform: rotate(-2deg) 
+	.option_descr
+		position: absolute
+		display: block
+		width: 750px
+		min-height: 250px
+		text-align: center
+		font-size: 20px
+		margin: -544px 35px 35px 632px
+		span
+			font-weight: 900
+
+.press 
+	margin: 280px 0 0 300px
+	padding: 0 
+	transform: translate(-50%,-50%) 
+	width: 640px 
+	height: 360px 
+	display: flex 
+	&:hover 
+		.press-item 
+			&:nth-child(odd) 
+				transform: skewY(15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+				transform: skewY(15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+			&:nth-child(even) 
+				transform: skewY(-15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+				transform: skewY(-15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+	.press-item 
+		&:nth-child(1) 
+			background-position: 0 
+			background-position: 0 
+		&:nth-child(2) 
+			background-position: -160px 
+			background-position: -160px 
+		&:nth-child(3) 
+			background-position: -320px 
+			background-position: -320px 
+		&:nth-child(4) 
+			background-position: -480px 
+			background-position: -480px 
+.press-item 
+	list-style: none 
+	width: 25% 
+	background: url('../img/tbilisibg3.png') 
+	background-size: cover 
+	height: 100% 
+	transition: 0.5s 
+	list-style: none 
+	width: 25% 
+	background: url('../img/tbilisibg3.png') 
+	background-size: cover 
+	height: 100% 
+	transition: 0.5s 
+
+.option_btn
+	display: block
+	background-color: #943594
+	color: white
+	margin: -220px 0 0 910px
+	width: 200px
+	height: 35px
+	font-size: 20px
+	text-transform: uppercase
+	border: transparent
+	border-radius: 15px
+	font-weight: 600
+	+btn_hover
+
+.press_batumi
+	margin: 259px 0 0 1035px
+	padding: 0 
+	transform: translate(-50%,-50%) 
+	width: 640px 
+	height: 360px 
+	display: flex 
+	&:hover 
+		.press-item1
+			&:nth-child(odd) 
+				transform: skewY(15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+				transform: skewY(15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+			&:nth-child(even) 
+				transform: skewY(-15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+				transform: skewY(-15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+	.press-item1
+		&:nth-child(1) 
+			background-position: 0 
+			background-position: 0 
+		&:nth-child(2) 
+			background-position: -160px 
+			background-position: -160px 
+		&:nth-child(3) 
+			background-position: -320px 
+			background-position: -320px 
+		&:nth-child(4) 
+			background-position: -480px 
+			background-position: -480px 
+.press-item1 
+	list-style: none 
+	width: 25% 
+	background: url('../img/bgbatumi3.png') 
+	background-size: cover 
+	height: 100% 
+	transition: 0.5s 
+	list-style: none 
+	width: 25% 
+	background: url('../img/bgbatumi3.png') 
+	background-size: cover 
+	height: 100% 
+	transition: 0.5s 
+
+.option_descr1
+		position: absolute
+		display: block
+		width: 750px
+		min-height: 250px
+		text-align: center
+		font-size: 20px
+		margin: -517px 35px 35px -40px
+		span
+			font-weight: 900
+
+.option_btn1
+	display: block
+	background-color: #943594
+	color: white
+	margin: -242px 0 73px 230px
+	width: 200px
+	height: 35px
+	font-size: 20px
+	text-transform: uppercase
+	border: transparent
+	border-radius: 15px
+	font-weight: 600
+	+btn_hover
+
+.press_svanety
+	margin: 300px 0 0 308px
+	padding: 0 
+	transform: translate(-50%,-50%) 
+	width: 640px 
+	height: 360px 
+	display: flex 
+	&:hover 
+		.press-item2
+			&:nth-child(odd) 
+				transform: skewY(15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+				transform: skewY(15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+			&:nth-child(even) 
+				transform: skewY(-15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+				transform: skewY(-15deg) 
+				box-shadow: inset 20px 0 50px rgba(0,0,0, .5) 
+	.press-item2
+		&:nth-child(1) 
+			background-position: 0 
+			background-position: 0 
+		&:nth-child(2) 
+			background-position: -160px 
+			background-position: -160px 
+		&:nth-child(3) 
+			background-position: -320px 
+			background-position: -320px 
+		&:nth-child(4) 
+			background-position: -480px 
+			background-position: -480px 
+.press-item2
+	list-style: none 
+	width: 25% 
+	background: url('../img/svanety3.png') 
+	background-size: cover 
+	height: 100% 
+	transition: 0.5s 
+	list-style: none 
+	width: 25% 
+	background: url('../img/svanety3.png') 
+	background-size: cover 
+	height: 100% 
+	transition: 0.5s 
+
+.option_descr2
+		position: absolute
+		display: block
+		width: 750px
+		min-height: 250px
+		text-align: center
+		font-size: 20px
+		margin: -517px 35px 35px 632px
+		span
+			font-weight: 900
+
+.option_btn2
+	display: block
+	background-color: #943594
+	color: white
+	margin: -214px 0 73px 909px
+	width: 200px
+	height: 35px
+	font-size: 20px
+	text-transform: uppercase
+	border: transparent
+	border-radius: 15px
+	font-weight: 600
+	+btn_hover
+
+.serch
+	position: relative
+	background: #ffff
+	min-height: 350px
+	.container 
+		.serch_text
+			display: block
+			margin: 0 auto
+			padding-top: 20px
+			text-align: center
+			text-transform: uppercase
+			font-size: 20px
+			color: #000000
+			width: 397px
+			border-radius: 15px
+		.picture_item
+			display: flex
+			justify-content: space-around
+			align-items: center
+			padding-top: 55px
+			.flight
+				width: 100px
+				height: 100px
+				background-color: 
+				background: url('../icons/airplane.svg')
+				.serch_descr1
+					position: absolute
+					margin-top: 115px
+					margin-left: -60px
+					text-align: center
+					font-size: 18px
+			.habitation
+				width: 100px
+				height: 100px
+				background-color:
+				background: url('../icons/hotel1.svg')
+				.serch_descr2
+					position: absolute
+					margin-top: 115px
+					margin-left: -70px
+					text-align: center
+					font-size: 18px
+			.transfer
+				width: 100px
+				height: 100px
+				background-color: 
+				background: url('../icons/map.svg')
+				.serch_descr3
+					position: absolute
+					margin-top: 115px
+					margin-left: -18px
+					text-align: center
+					font-size: 18px
+			.excursions
+				width: 100px
+				height: 100px
+				background-color: 
+				background: url('../icons/excursions.svg')
+				.serch_descr4
+					position: absolute
+					margin-top: 115px
+					margin-left: -71px
+					text-align: center
+					font-size: 18px
+			.insurance
+				width: 100px
+				height: 100px
+				background-color: 
+				background: url('../icons/inshure.svg')
+				.serch_descr5
+					position: absolute
+					margin-top: 115px
+					margin-left: -40px
+					text-align: center
+					font-size: 18px
+.contact
+	h3
+		margin-top: 150px
+		font-weight: 900
+	.contact_adres
+		font-size: 20px
+		font-weight: 600
+		text-decoration: none
+	.maps
+		margin-top: 130px
+.price1
+	min-height: 550px
+	background-color: #e4deec
+	.price_first	
+		display: block
+		margin-top: 30px
+		background-color: #943594
+		color: #ffff
+		padding: 25px 15px 30px 15px
+		font-size: 20px
+		.price_text	
+			font-size: 40px
+		.price_items
+			margin-top: 40px
+	.price_second
+		display: block
+		margin-top: 30px
+		background-color: #727272
+		color: #ffff
+		padding: 25px 15px 240px 15px
+		font-size: 20px
+		.price_text	
+			font-size: 40px
+		.price_items
+			margin-top: 40px
+.form
+	margin-top: 20px
+	min-height: 350px
+	.fon1
+		width: 440px
+	.fon2
+		width: 440px
+		height: 300px
+	.fon3
+		width: 440px
+		height: 320px
+	.fon4
+		width: 440px
+		height: 300px
+	.fon5
+		width: 418px
+		height: 292px
+	.fon6
+		width: 418px
+		height: 300px
+.footer
+	min-height: 250px
+	background-color: rgb(255, 255, 255)
+	.salamuri
+		margin-top: 25px
+		font-weight: 700
+	.footer_item
+		list-style-type: none
+		color: #000000
+		.item
+			font-size: 18px
+			font-weight: 600
+	.footer_logo
+		img
+			margin-top: 45px
+			width: 200px
+		.footer_descr
+			text-align: center
+
+	.subheader_phone
+		width: 244px
+		display: block
+		margin-top: 30px
+		margin-left: 324px
+		font-size: 23px
+		font-weight: 600
+	.subheader_descr
+		display: block
+		margin-left: 308px
+		font-size: 13px
+		
+	.footer_soc
+		display: flex
+		margin-left: 317px
+		margin-top: 15px
+		.instagram
+			width: 40px
+			height: 40px
+		.facebook
+			img
+				width: 60px
+				height: 60px
+				margin-top: -6px
+				margin-left: 10px
+		.whatsapp
+			width: 40px
+			height: 40px
+			margin-top: -1px
+			margin-left: 2px
+		.telegram
+			img
+				width: 49px
+				height: 49px
+				margin-top: -1px
+				margin-left: 13px
+
+

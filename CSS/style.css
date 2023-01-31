@@ -1,0 +1,800 @@
+/* line 10, ../BRAND Project/scr/sass/style.sass */
+body {
+  display: block;
+  background: url("../img/bgfone1.jpg") center center/cover no-repeat;
+}
+
+/* line 14, ../BRAND Project/scr/sass/style.sass */
+.menu {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  z-index: 5;
+}
+
+/* line 19, ../BRAND Project/scr/sass/style.sass */
+.menu .btn {
+  position: absolute;
+  display: block;
+  margin: -80px 1200px;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: #ffff;
+  height: 48px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* line 5, ../BRAND Project/scr/sass/style.sass */
+.menu .btn:hover {
+  background-image: none;
+  background-color: #671ec7;
+}
+
+/* line 32, ../BRAND Project/scr/sass/style.sass */
+.menu .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 217px;
+  height: 120px;
+  padding: 17px 32px;
+  gap: 872px;
+  isolation: isolate;
+}
+
+/* line 42, ../BRAND Project/scr/sass/style.sass */
+.menu .nav {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: -55px;
+  width: 100%;
+  height: 20px;
+  padding: 0px;
+  gap: 24px;
+  list-style-type: none;
+  color: #ff1111;
+}
+
+/* line 53, ../BRAND Project/scr/sass/style.sass */
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+/* line 57, ../BRAND Project/scr/sass/style.sass */
+.header {
+  min-height: 715px;
+  width: 100%;
+  margin-left: -100px;
+  margin-right: 0;
+}
+
+/* line 62, ../BRAND Project/scr/sass/style.sass */
+.header img {
+  margin-left: 0px;
+  width: 1495px;
+  margin-top: -40px;
+}
+
+/* line 67, ../BRAND Project/scr/sass/style.sass */
+.wrap {
+  min-height: 400px;
+  background-color: #ffff;
+}
+
+/* line 70, ../BRAND Project/scr/sass/style.sass */
+.wrap .ferst {
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* line 75, ../BRAND Project/scr/sass/style.sass */
+.wrap span {
+  display: block;
+  margin: 0 auto;
+  margin-top: -15px;
+  width: 370px;
+  height: 10px;
+  background-color: #671ec7;
+}
+
+/* line 82, ../BRAND Project/scr/sass/style.sass */
+.wrap .data {
+  margin-top: 15px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* line 87, ../BRAND Project/scr/sass/style.sass */
+.wrap .price {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* line 91, ../BRAND Project/scr/sass/style.sass */
+.wrap_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 165px;
+  font-size: 35px;
+  padding: 15px 30px 15px 30px;
+  color: #ffff;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #671ec7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+
+/* line 5, ../BRAND Project/scr/sass/style.sass */
+.wrap_btn:hover {
+  background-image: none;
+  background-color: #671ec7;
+}
+
+/* line 105, ../BRAND Project/scr/sass/style.sass */
+.text {
+  width: 100%;
+  height: 120px;
+}
+
+/* line 108, ../BRAND Project/scr/sass/style.sass */
+.option {
+  /* background: url('../img/bgtravel.png') center (center / cover) no-repeat */
+  min-height: 650px;
+  margin-left: -10px;
+}
+
+/* line 112, ../BRAND Project/scr/sass/style.sass */
+.option h2 {
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* line 121, ../BRAND Project/scr/sass/style.sass */
+.option .hr-inclined-left {
+  margin: 40px 0 40px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 5px solid #ffffff;
+  transform: rotate(2deg);
+}
+
+/* line 128, ../BRAND Project/scr/sass/style.sass */
+.option .hr-inclined-right {
+  margin: 25px 0 40px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 5px solid #ffffff;
+  transform: rotate(-2deg);
+}
+
+/* line 135, ../BRAND Project/scr/sass/style.sass */
+.option .option_descr {
+  position: absolute;
+  display: block;
+  width: 750px;
+  min-height: 250px;
+  text-align: center;
+  font-size: 20px;
+  margin: -544px 35px 35px 632px;
+}
+
+/* line 143, ../BRAND Project/scr/sass/style.sass */
+.option .option_descr span {
+  font-weight: 900;
+}
+
+/* line 146, ../BRAND Project/scr/sass/style.sass */
+.press {
+  margin: 280px 0 0 300px;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  width: 640px;
+  height: 360px;
+  display: flex;
+}
+
+/* line 155, ../BRAND Project/scr/sass/style.sass */
+.press:hover .press-item:nth-child(odd) {
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* line 160, ../BRAND Project/scr/sass/style.sass */
+.press:hover .press-item:nth-child(even) {
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* line 166, ../BRAND Project/scr/sass/style.sass */
+.press .press-item:nth-child(1) {
+  background-position: 0;
+  background-position: 0;
+}
+
+/* line 169, ../BRAND Project/scr/sass/style.sass */
+.press .press-item:nth-child(2) {
+  background-position: -160px;
+  background-position: -160px;
+}
+
+/* line 172, ../BRAND Project/scr/sass/style.sass */
+.press .press-item:nth-child(3) {
+  background-position: -320px;
+  background-position: -320px;
+}
+
+/* line 175, ../BRAND Project/scr/sass/style.sass */
+.press .press-item:nth-child(4) {
+  background-position: -480px;
+  background-position: -480px;
+}
+
+/* line 178, ../BRAND Project/scr/sass/style.sass */
+.press-item {
+  list-style: none;
+  width: 25%;
+  background: url("../img/tbilisibg3.png");
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+  list-style: none;
+  width: 25%;
+  background: url("../img/tbilisibg3.png");
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+}
+
+/* line 192, ../BRAND Project/scr/sass/style.sass */
+.option_btn {
+  display: block;
+  background-color: #943594;
+  color: white;
+  margin: -220px 0 0 910px;
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: transparent;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+/* line 5, ../BRAND Project/scr/sass/style.sass */
+.option_btn:hover {
+  background-image: none;
+  background-color: #671ec7;
+}
+
+/* line 206, ../BRAND Project/scr/sass/style.sass */
+.press_batumi {
+  margin: 259px 0 0 1035px;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  width: 640px;
+  height: 360px;
+  display: flex;
+}
+
+/* line 215, ../BRAND Project/scr/sass/style.sass */
+.press_batumi:hover .press-item1:nth-child(odd) {
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* line 220, ../BRAND Project/scr/sass/style.sass */
+.press_batumi:hover .press-item1:nth-child(even) {
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* line 226, ../BRAND Project/scr/sass/style.sass */
+.press_batumi .press-item1:nth-child(1) {
+  background-position: 0;
+  background-position: 0;
+}
+
+/* line 229, ../BRAND Project/scr/sass/style.sass */
+.press_batumi .press-item1:nth-child(2) {
+  background-position: -160px;
+  background-position: -160px;
+}
+
+/* line 232, ../BRAND Project/scr/sass/style.sass */
+.press_batumi .press-item1:nth-child(3) {
+  background-position: -320px;
+  background-position: -320px;
+}
+
+/* line 235, ../BRAND Project/scr/sass/style.sass */
+.press_batumi .press-item1:nth-child(4) {
+  background-position: -480px;
+  background-position: -480px;
+}
+
+/* line 238, ../BRAND Project/scr/sass/style.sass */
+.press-item1 {
+  list-style: none;
+  width: 25%;
+  background: url("../img/bgbatumi3.png");
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+  list-style: none;
+  width: 25%;
+  background: url("../img/bgbatumi3.png");
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+}
+
+/* line 252, ../BRAND Project/scr/sass/style.sass */
+.option_descr1 {
+  position: absolute;
+  display: block;
+  width: 750px;
+  min-height: 250px;
+  text-align: center;
+  font-size: 20px;
+  margin: -517px 35px 35px -40px;
+}
+
+/* line 260, ../BRAND Project/scr/sass/style.sass */
+.option_descr1 span {
+  font-weight: 900;
+}
+
+/* line 263, ../BRAND Project/scr/sass/style.sass */
+.option_btn1 {
+  display: block;
+  background-color: #943594;
+  color: white;
+  margin: -242px 0 73px 230px;
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: transparent;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+/* line 5, ../BRAND Project/scr/sass/style.sass */
+.option_btn1:hover {
+  background-image: none;
+  background-color: #671ec7;
+}
+
+/* line 277, ../BRAND Project/scr/sass/style.sass */
+.press_svanety {
+  margin: 300px 0 0 308px;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  width: 640px;
+  height: 360px;
+  display: flex;
+}
+
+/* line 286, ../BRAND Project/scr/sass/style.sass */
+.press_svanety:hover .press-item2:nth-child(odd) {
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* line 291, ../BRAND Project/scr/sass/style.sass */
+.press_svanety:hover .press-item2:nth-child(even) {
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* line 297, ../BRAND Project/scr/sass/style.sass */
+.press_svanety .press-item2:nth-child(1) {
+  background-position: 0;
+  background-position: 0;
+}
+
+/* line 300, ../BRAND Project/scr/sass/style.sass */
+.press_svanety .press-item2:nth-child(2) {
+  background-position: -160px;
+  background-position: -160px;
+}
+
+/* line 303, ../BRAND Project/scr/sass/style.sass */
+.press_svanety .press-item2:nth-child(3) {
+  background-position: -320px;
+  background-position: -320px;
+}
+
+/* line 306, ../BRAND Project/scr/sass/style.sass */
+.press_svanety .press-item2:nth-child(4) {
+  background-position: -480px;
+  background-position: -480px;
+}
+
+/* line 309, ../BRAND Project/scr/sass/style.sass */
+.press-item2 {
+  list-style: none;
+  width: 25%;
+  background: url("../img/svanety3.png");
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+  list-style: none;
+  width: 25%;
+  background: url("../img/svanety3.png");
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+}
+
+/* line 323, ../BRAND Project/scr/sass/style.sass */
+.option_descr2 {
+  position: absolute;
+  display: block;
+  width: 750px;
+  min-height: 250px;
+  text-align: center;
+  font-size: 20px;
+  margin: -517px 35px 35px 632px;
+}
+
+/* line 331, ../BRAND Project/scr/sass/style.sass */
+.option_descr2 span {
+  font-weight: 900;
+}
+
+/* line 334, ../BRAND Project/scr/sass/style.sass */
+.option_btn2 {
+  display: block;
+  background-color: #943594;
+  color: white;
+  margin: -214px 0 73px 909px;
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: transparent;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+/* line 5, ../BRAND Project/scr/sass/style.sass */
+.option_btn2:hover {
+  background-image: none;
+  background-color: #671ec7;
+}
+
+/* line 348, ../BRAND Project/scr/sass/style.sass */
+.serch {
+  position: relative;
+  background: #ffff;
+  min-height: 350px;
+}
+
+/* line 353, ../BRAND Project/scr/sass/style.sass */
+.serch .container .serch_text {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #000000;
+  width: 397px;
+  border-radius: 15px;
+}
+
+/* line 363, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 55px;
+}
+
+/* line 368, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .flight {
+  width: 100px;
+  height: 100px;
+  background: url("../icons/airplane.svg");
+}
+
+/* line 373, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .flight .serch_descr1 {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: -60px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* line 379, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .habitation {
+  width: 100px;
+  height: 100px;
+  background: url("../icons/hotel1.svg");
+}
+
+/* line 384, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .habitation .serch_descr2 {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: -70px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* line 390, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .transfer {
+  width: 100px;
+  height: 100px;
+  background: url("../icons/map.svg");
+}
+
+/* line 395, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .transfer .serch_descr3 {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: -18px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* line 401, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .excursions {
+  width: 100px;
+  height: 100px;
+  background: url("../icons/excursions.svg");
+}
+
+/* line 406, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .excursions .serch_descr4 {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: -71px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* line 412, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .insurance {
+  width: 100px;
+  height: 100px;
+  background: url("../icons/inshure.svg");
+}
+
+/* line 417, ../BRAND Project/scr/sass/style.sass */
+.serch .container .picture_item .insurance .serch_descr5 {
+  position: absolute;
+  margin-top: 115px;
+  margin-left: -40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* line 424, ../BRAND Project/scr/sass/style.sass */
+.contact h3 {
+  margin-top: 150px;
+  font-weight: 900;
+}
+
+/* line 427, ../BRAND Project/scr/sass/style.sass */
+.contact .contact_adres {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* line 431, ../BRAND Project/scr/sass/style.sass */
+.contact .maps {
+  margin-top: 130px;
+}
+
+/* line 433, ../BRAND Project/scr/sass/style.sass */
+.price1 {
+  min-height: 550px;
+  background-color: #e4deec;
+}
+
+/* line 436, ../BRAND Project/scr/sass/style.sass */
+.price1 .price_first {
+  display: block;
+  margin-top: 30px;
+  background-color: #943594;
+  color: #ffff;
+  padding: 25px 15px 30px 15px;
+  font-size: 20px;
+}
+
+/* line 443, ../BRAND Project/scr/sass/style.sass */
+.price1 .price_first .price_text {
+  font-size: 40px;
+}
+
+/* line 445, ../BRAND Project/scr/sass/style.sass */
+.price1 .price_first .price_items {
+  margin-top: 40px;
+}
+
+/* line 447, ../BRAND Project/scr/sass/style.sass */
+.price1 .price_second {
+  display: block;
+  margin-top: 30px;
+  background-color: #727272;
+  color: #ffff;
+  padding: 25px 15px 240px 15px;
+  font-size: 20px;
+}
+
+/* line 454, ../BRAND Project/scr/sass/style.sass */
+.price1 .price_second .price_text {
+  font-size: 40px;
+}
+
+/* line 456, ../BRAND Project/scr/sass/style.sass */
+.price1 .price_second .price_items {
+  margin-top: 40px;
+}
+
+/* line 458, ../BRAND Project/scr/sass/style.sass */
+.form {
+  margin-top: 20px;
+  min-height: 350px;
+}
+
+/* line 461, ../BRAND Project/scr/sass/style.sass */
+.form .fon1 {
+  width: 440px;
+}
+
+/* line 463, ../BRAND Project/scr/sass/style.sass */
+.form .fon2 {
+  width: 440px;
+  height: 300px;
+}
+
+/* line 466, ../BRAND Project/scr/sass/style.sass */
+.form .fon3 {
+  width: 440px;
+  height: 320px;
+}
+
+/* line 469, ../BRAND Project/scr/sass/style.sass */
+.form .fon4 {
+  width: 440px;
+  height: 300px;
+}
+
+/* line 472, ../BRAND Project/scr/sass/style.sass */
+.form .fon5 {
+  width: 418px;
+  height: 292px;
+}
+
+/* line 475, ../BRAND Project/scr/sass/style.sass */
+.form .fon6 {
+  width: 418px;
+  height: 300px;
+}
+
+/* line 478, ../BRAND Project/scr/sass/style.sass */
+.footer {
+  min-height: 250px;
+  background-color: white;
+}
+
+/* line 481, ../BRAND Project/scr/sass/style.sass */
+.footer .salamuri {
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+/* line 484, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_item {
+  list-style-type: none;
+  color: #000000;
+}
+
+/* line 487, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_item .item {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* line 491, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_logo img {
+  margin-top: 45px;
+  width: 200px;
+}
+
+/* line 494, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_logo .footer_descr {
+  text-align: center;
+}
+
+/* line 497, ../BRAND Project/scr/sass/style.sass */
+.footer .subheader_phone {
+  width: 244px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 324px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+/* line 504, ../BRAND Project/scr/sass/style.sass */
+.footer .subheader_descr {
+  display: block;
+  margin-left: 308px;
+  font-size: 13px;
+}
+
+/* line 509, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_soc {
+  display: flex;
+  margin-left: 317px;
+  margin-top: 15px;
+}
+
+/* line 513, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_soc .instagram {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 517, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_soc .facebook img {
+  width: 60px;
+  height: 60px;
+  margin-top: -6px;
+  margin-left: 10px;
+}
+
+/* line 522, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_soc .whatsapp {
+  width: 40px;
+  height: 40px;
+  margin-top: -1px;
+  margin-left: 2px;
+}
+
+/* line 528, ../BRAND Project/scr/sass/style.sass */
+.footer .footer_soc .telegram img {
+  width: 49px;
+  height: 49px;
+  margin-top: -1px;
+  margin-left: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */
